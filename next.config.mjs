@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -15,3 +16,5 @@ const nextConfig = {
     parallelServerCompiles: true,
   },
 }
+
+export default nextConfig
